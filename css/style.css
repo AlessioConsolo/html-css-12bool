@@ -17,7 +17,6 @@
 .content {
   background-color: #006cfa;
   display: flex;
-  padding: 10px;
   color: white;
   justify-content: center;
   align-items: center;
@@ -28,7 +27,6 @@
 .green-content {
   background-color: #00e165;
   display: flex;
-  padding: 10px;
   color: white;
   justify-content: center;
   align-items: center;
@@ -152,6 +150,14 @@
   padding: 12px;
 }
 
-.m-b25-px {
-  margin-bottom: 25px;
+.m-b25-y1-t1-px {
+  margin: 1px 1px 25px 1px;
+}
+
+.border-left-1px {
+  border-left: 1px solid white;
+}
+
+.border-right-1px {
+  border-right: 1px solid white;
 }
